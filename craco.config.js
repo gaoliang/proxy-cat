@@ -19,7 +19,7 @@ module.exports = () => {
                 }
                 webpackConfig.output = {
                     ...webpackConfig.output,
-                    filename: 'static/js/[name].js'
+                    filename: 'static/js/[name].js',
                 }
                 console.log(webpackConfig)
                 return webpackConfig;

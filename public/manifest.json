@@ -11,8 +11,9 @@
   "icons": {
   },
   "action": {
-    "default_popup": "index.html"
+    "default_popup": "index.html#/popup"
   },
+  "options_page": "index.html#/options",
   "background": {
     "service_worker": "static/js/background.js"
   }
